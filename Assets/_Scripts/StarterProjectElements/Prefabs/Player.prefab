@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7626749811110973263}
   - component: {fileID: 7626749811110973265}
   - component: {fileID: 7626749811110973264}
-  - component: {fileID: 8851987634809729678}
   m_Layer: 0
   m_Name: Renderer
   m_TagString: Untagged
@@ -107,22 +106,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8851987634809729678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7626749811110973262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 916ca24ed8662744ea84989315e07c51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  clips:
-  - {fileID: 8300000, guid: 3f8dc98ad748724459bc66335c0c3564, type: 3}
-  - {fileID: 8300000, guid: 1d9806736b15c5347b379bd37e9eaaaf, type: 3}
 --- !u!1 &7626749812625789612
 GameObject:
   m_ObjectHideFlags: 0
@@ -136,6 +119,7 @@ GameObject:
   - component: {fileID: 7626749812625789614}
   - component: {fileID: 6260920770320331038}
   - component: {fileID: 6512532673350182555}
+  - component: {fileID: 1070394157}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -264,3 +248,17 @@ MonoBehaviour:
   bloodParticle: {fileID: 2156367806491492928, guid: 5f83e1530fdf11148ba195e4411ba1d9, type: 3}
   renderer: {fileID: 7626749811110973265}
   flashTime: 0.2
+--- !u!114 &1070394157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7626749812625789612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e33421a3f1841ee8381da3eb1e2e6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invetoryUI: {fileID: 0}
+  inventorySize: 10
